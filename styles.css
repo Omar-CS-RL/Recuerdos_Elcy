@@ -4,9 +4,9 @@
     --card-color: #fff5eb;
     --text-color: #3b3a30;
     --title-color: #c86a43;
-    --button-color: #ffadad;
-    --button-hover: #ffc3a0;
-    --border-color: #d4a373;
+    --button-color: #d9534f; /* Rojo para los botones y enlaces */
+    --button-hover: #c9302c; /* Rojo más oscuro para hover */
+    --border-color: #88b04b; /* Verde pacay */
 }
 
 body {
@@ -34,7 +34,7 @@ body {
 
 header h1 {
     font-family: 'Dancing Script', cursive;
-    color: var(--title-color);
+    color: var(--border-color); /* Verde pacay para el título */
     font-size: 2.2em;
     margin-bottom: 10px;
     animation: fadeIn 2s ease-in-out;
@@ -94,7 +94,7 @@ header p {
 
 .entry-title {
     font-family: 'Dancing Script', cursive;
-    color: var(--title-color);
+    color: var(--border-color); /* Verde pacay para los títulos */
     font-size: 1.5em;
     margin: 0;
 }
@@ -110,7 +110,7 @@ header p {
     display: inline-block;
     padding: 8px 15px;
     color: white;
-    background-color: var(--button-color);
+    background-color: var(--button-color); /* Rojo para los botones */
     border-radius: 20px;
     text-decoration: none;
     font-weight: bold;
@@ -119,14 +119,14 @@ header p {
 }
 
 .entry-link:hover {
-    background-color: var(--button-hover);
+    background-color: var(--button-hover); /* Rojo más oscuro en hover */
     transform: scale(1.05);
 }
 
 /* Footer con animación de desvanecimiento */
 footer p {
     font-family: 'Dancing Script', cursive;
-    color: var(--title-color);
+    color: var(--border-color); /* Verde pacay en el footer */
     font-size: 1.4em;
     margin-top: 30px;
     opacity: 0;
